@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: /db/changelog/V1__create_users_and_reservations_tables.yaml
+  - include:
+      file: /db/changelog/V2__some_other_changes.yaml
