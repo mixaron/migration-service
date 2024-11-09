@@ -11,7 +11,7 @@ services:
 
   db:
     image: postgres:15-alpine
-    container_name: postgres_container
+    container_name: postgres_container_migration
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123123
